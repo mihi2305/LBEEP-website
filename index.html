@@ -114,57 +114,38 @@
     </section>
 
     <section id="timetable" class="section timetable">
-      <div class="section-kicker reveal"><span>03</span><p>A WEEK IN LBEEP</p></div>
+      <div class="section-kicker reveal"><span>03</span><p>LBEEP TIMETABLE</p></div>
       <div class="timetable-head reveal">
-        <div><h2>LBEEP生の<br><em>リアルな一週間。</em></h2></div>
-        <p>実際のLBEEP生3人の履修データを掲載。1年次は基礎・語学とLBEEP独自科目を幅広く、3年次は自分の関心に合わせて専門性を深めています。</p>
+        <div><h2>LBEEP生の<br><em>時間割</em></h2></div>
+        <p>実際の履修例をもとに、LBEEP生がどのように経済・法律・実践型授業を組み合わせて学んでいるのかを紹介します。学期ごとの時間割を見ると、1年次の導入演習から、2年次の法律・経済専門科目、3年次以降のゼミや産学官連携演習へと学びが深まっていく流れがわかります。</p>
       </div>
-      <div class="schedule-tabs reveal" role="tablist" aria-label="学生別の時間割">
-        <button class="schedule-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="schedule-a" id="tab-a" data-schedule="schedule-a"><small>STUDENT A</small><b>1年次・春学期</b></button>
-        <button class="schedule-tab" type="button" role="tab" aria-selected="false" aria-controls="schedule-b" id="tab-b" data-schedule="schedule-b"><small>STUDENT B</small><b>1年次・春学期</b></button>
-        <button class="schedule-tab" type="button" role="tab" aria-selected="false" aria-controls="schedule-c" id="tab-c" data-schedule="schedule-c"><small>STUDENT C</small><b>3年次・春学期</b></button>
-      </div>
-      <div id="schedule-a" class="schedule-panel is-active" role="tabpanel" aria-labelledby="tab-a">
-        <p class="student-comment">「法学・経済学・英語をバランスよく。1年次から専門科目と少人数演習が始まります」</p>
-        <div class="schedule-wrap" role="region" aria-label="学生Aの時間割" tabindex="0">
-          <div class="schedule schedule-6">
-            <div class="cell corner">TIME</div><div class="cell day">MON</div><div class="cell day">TUE</div><div class="cell day">WED</div><div class="cell day">THU</div><div class="cell day">FRI</div><div class="cell day">SAT</div>
-            <div class="cell time">1限<small>8:50–10:20</small></div><div class="cell free"></div><div class="cell class-general">基礎演習</div><div class="cell class-econ">グローバル・<br>エコノミー入門</div><div class="cell class-general">微分積分Ⅰ</div><div class="cell free"></div><div class="cell free"></div>
-            <div class="cell time">2限<small>10:30–12:00</small></div><div class="cell class-general">自立英語</div><div class="cell class-lbeep">課題発見の手法</div><div class="cell free"></div><div class="cell class-law">社会の制度を考える</div><div class="cell class-econ">ポリティカル・<br>エコノミー入門</div><div class="cell free"></div>
-            <div class="cell time">3限<small>13:00–14:30</small></div><div class="cell class-general">線形代数Ⅰ</div><div class="cell class-law">法学入門</div><div class="cell free"></div><div class="cell free"></div><div class="cell class-general">コンピューター・<br>リテラシー</div><div class="cell free"></div>
-            <div class="cell time">4限<small>14:40–16:10</small></div><div class="cell free"></div><div class="cell class-general">英語<br>プレゼンテーション</div><div class="cell class-lbeep">導入演習Ⅰ</div><div class="cell class-econ">ミクロ経済学入門</div><div class="cell free"></div><div class="cell free"></div>
-            <div class="cell time">5限<small>16:15–17:45</small></div><div class="cell free"></div><div class="cell free"></div><div class="cell class-lbeep">導入演習Ⅱ</div><div class="cell free"></div><div class="cell free"></div><div class="cell free"></div>
-          </div>
+      <div class="schedule-tabs-wrap reveal">
+        <div class="schedule-tabs" role="tablist" aria-label="学期別の時間割">
+          <button class="schedule-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="schedule-1s" id="tab-1s" data-schedule="schedule-1s"><small>YEAR 1</small><b>1春</b></button>
+          <button class="schedule-tab" type="button" role="tab" aria-selected="false" aria-controls="schedule-1f" id="tab-1f" data-schedule="schedule-1f"><small>YEAR 1</small><b>1秋</b></button>
+          <button class="schedule-tab" type="button" role="tab" aria-selected="false" aria-controls="schedule-2s" id="tab-2s" data-schedule="schedule-2s"><small>YEAR 2</small><b>2春</b></button>
+          <button class="schedule-tab" type="button" role="tab" aria-selected="false" aria-controls="schedule-2f" id="tab-2f" data-schedule="schedule-2f"><small>YEAR 2</small><b>2秋</b></button>
+          <button class="schedule-tab" type="button" role="tab" aria-selected="false" aria-controls="schedule-3s" id="tab-3s" data-schedule="schedule-3s"><small>YEAR 3</small><b>3春</b></button>
+          <button class="schedule-tab" type="button" role="tab" aria-selected="false" aria-controls="schedule-3f" id="tab-3f" data-schedule="schedule-3f"><small>YEAR 3</small><b>3秋</b></button>
+          <button class="schedule-tab" type="button" role="tab" aria-selected="false" aria-controls="schedule-4s" id="tab-4s" data-schedule="schedule-4s"><small>YEAR 4</small><b>4春</b></button>
         </div>
       </div>
-      <div id="schedule-b" class="schedule-panel" role="tabpanel" aria-labelledby="tab-b" hidden>
-        <p class="student-comment">「教養科目にも興味を広げながら、LBEEPの必修科目を着実に履修しました」</p>
-        <div class="schedule-wrap" role="region" aria-label="学生Bの時間割" tabindex="0">
-          <div class="schedule schedule-6">
-            <div class="cell corner">TIME</div><div class="cell day">MON</div><div class="cell day">TUE</div><div class="cell day">WED</div><div class="cell day">THU</div><div class="cell day">FRI</div><div class="cell day">SAT</div>
-            <div class="cell time">1限<small>8:50–10:20</small></div><div class="cell free"></div><div class="cell free"></div><div class="cell free"></div><div class="cell free"></div><div class="cell free"></div><div class="cell free"></div>
-            <div class="cell time">2限<small>10:30–12:00</small></div><div class="cell class-general">自立英語</div><div class="cell class-lbeep">課題発見の手法</div><div class="cell free"></div><div class="cell class-law">社会の制度を考える</div><div class="cell class-econ">ポリティカル・<br>エコノミー入門</div><div class="cell free"></div>
-            <div class="cell time">3限<small>13:00–14:30</small></div><div class="cell class-general">コンピューター・<br>リテラシー</div><div class="cell class-law">法学入門</div><div class="cell free"></div><div class="cell class-general">持続可能社会を<br>目指した資源活用</div><div class="cell free"></div><div class="cell free"></div>
-            <div class="cell time">4限<small>14:40–16:10</small></div><div class="cell class-general">教育学<br>（教育と人間）</div><div class="cell class-general">英語ライティング</div><div class="cell class-lbeep">導入演習Ⅰ</div><div class="cell class-general">気象学入門</div><div class="cell class-econ">経済と倫理</div><div class="cell free"></div>
-            <div class="cell time">5限<small>16:15–17:45</small></div><div class="cell free"></div><div class="cell class-general">基礎演習</div><div class="cell class-lbeep">導入演習Ⅱ</div><div class="cell free"></div><div class="cell free"></div><div class="cell free"></div>
-          </div>
-        </div>
+      <div class="schedule-legend reveal" aria-label="分類の凡例">
+        <span class="legend-lbeep">LBEEP必修</span>
+        <span class="legend-law">法律・政治系</span>
+        <span class="legend-econ">経済・経営系</span>
+        <span class="legend-general">教養・語学</span>
+        <span class="legend-seminar">ゼミ</span>
       </div>
-      <div id="schedule-c" class="schedule-panel" role="tabpanel" aria-labelledby="tab-c" hidden>
-        <p class="student-comment">「3年次は経済と法律の専門科目を深め、ゼミや産学官連携演習にも取り組みます」</p>
-        <div class="schedule-wrap" role="region" aria-label="学生Cの時間割" tabindex="0">
-          <div class="schedule schedule-6">
-            <div class="cell corner">TIME</div><div class="cell day">MON</div><div class="cell day">TUE</div><div class="cell day">WED</div><div class="cell day">THU</div><div class="cell day">FRI</div><div class="cell day">SAT</div>
-            <div class="cell time">1限</div><div class="cell free"></div><div class="cell free"></div><div class="cell free"></div><div class="cell class-econ">途上国経済</div><div class="cell free"></div><div class="cell class-general">ストーリーを通じて地域…</div>
-            <div class="cell time">2限</div><div class="cell free"></div><div class="cell class-law">ビジネス法</div><div class="cell class-econ">マクロ経済学1</div><div class="cell class-econ">マクロ経済学2</div><div class="cell free"></div><div class="cell free"></div>
-            <div class="cell time">3限</div><div class="cell free"></div><div class="cell class-econ">経済原論1</div><div class="cell class-law">知的財産法<br>［学部］</div><div class="cell class-law">社会の制度を考える</div><div class="cell class-econ">比較農業政策</div><div class="cell free"></div>
-            <div class="cell time">4限</div><div class="cell free"></div><div class="cell class-econ">経済原論2</div><div class="cell class-lbeep">産学官連携演習Ⅰ</div><div class="cell class-law">刑事法</div><div class="cell class-econ">中級比較農業政策</div><div class="cell free"></div>
-            <div class="cell time">5限</div><div class="cell free"></div><div class="cell class-general">佐藤ゼミ</div><div class="cell class-lbeep">産学官連携演習Ⅰ</div><div class="cell free"></div><div class="cell free"></div><div class="cell free"></div>
-          </div>
-        </div>
-      </div>
-      <div class="legend reveal"><span class="law-dot">法学・政治学</span><span class="econ-dot">経済学</span><span class="lbeep-dot">LBEEP独自科目</span><span class="general-dot">語学・教養</span></div>
-      <p class="note reveal">※在学生が実際に履修した時間割をもとに、教室名・教員名を省いて再構成しています。開講科目・時限は年度により異なります。「…」は元画像上で科目名が省略されているものです。</p>
+      <p class="scroll-guide reveal">横にスクロールできます</p>
+      <div id="schedule-1s" class="schedule-panel is-active" role="tabpanel" aria-labelledby="tab-1s" data-term="oneSpring"></div>
+      <div id="schedule-1f" class="schedule-panel" role="tabpanel" aria-labelledby="tab-1f" data-term="oneFall" hidden></div>
+      <div id="schedule-2s" class="schedule-panel" role="tabpanel" aria-labelledby="tab-2s" data-term="twoSpring" hidden></div>
+      <div id="schedule-2f" class="schedule-panel" role="tabpanel" aria-labelledby="tab-2f" data-term="twoFall" hidden></div>
+      <div id="schedule-3s" class="schedule-panel" role="tabpanel" aria-labelledby="tab-3s" data-term="threeSpring" hidden></div>
+      <div id="schedule-3f" class="schedule-panel" role="tabpanel" aria-labelledby="tab-3f" data-term="threeFall" hidden></div>
+      <div id="schedule-4s" class="schedule-panel" role="tabpanel" aria-labelledby="tab-4s" data-term="fourSpring" hidden></div>
+      <p class="note reveal">※時間割は一例です。年度・履修状況・開講科目によって変わる可能性があります。すべてのLBEEP生が同じ時間割になるわけではありません。</p>
     </section>
 
     <section class="campus-life">
